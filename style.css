@@ -19,7 +19,7 @@ h1.my-name {
     margin-bottom: 15px;
 }
 
-h3.work-title {
+.work-title {
     margin-bottom: 12px;
 }
 
@@ -29,6 +29,7 @@ h3.work-title {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -52,4 +53,18 @@ section {
 .top-banner {
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.big img {
+    width: 95%;
+}
+
+.need-padding {
+    padding-right: 10%;
 }
